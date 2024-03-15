@@ -8,8 +8,28 @@
 import SwiftUI
 
 struct CommentView: View {
+    @State var comment = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("Bình luận")
+                .bold()
+            Divider()
+            Spacer()
+            TextField("Bình luận cho Trần Việt Anh", text: $comment)
+                .overlay(
+                    HStack {
+                        Spacer()
+                        Image(systemName: "gift")
+                    }
+                    .padding(.trailing, 8),
+                    alignment: .trailing
+                )
+                .padding()
+                .background(Color("textfielbackgound"))
+                .cornerRadius(10)
+                .padding(.leading)
+ 
+        }
     }
 }
 

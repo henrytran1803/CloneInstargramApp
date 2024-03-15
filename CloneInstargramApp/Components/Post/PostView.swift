@@ -10,9 +10,11 @@ import SwiftUI
 struct PostView: View {
     @State private var images = ["Face", "Face", "Face"]
     @State private var isShowingBottom = false
+    @State private var isShowingBottomShare = false
     @State private var isLove = false
     @State private var isMark = false
     @State private var isBubble = false
+    @State private var countLive = 0
     var body: some View {
         VStack{
             HStack{
@@ -44,7 +46,7 @@ struct PostView: View {
                 Button(action: {isBubble.toggle()}, label: {
                     Image(systemName:isBubble ? "bubble.fill": "bubble")
                 })
-                Button(action: {}, label: {
+                Button(action: {isShowingBottomShare = true}, label: {
                     Image(systemName: "paperplane")
                 })
                 Spacer()
@@ -55,7 +57,13 @@ struct PostView: View {
                 
             }.padding(.horizontal)
                 .font(.system(size: 25))
-            
+            HStack{
+                Text("\(countLive) lượt thích")
+                    .bold()
+                    .font(.system(size: 10))
+                Spacer()
+            }.padding(.leading)
+           
             HStack{
                 SuperMiniCircleImage(image: Image("Face"))
                 Text("user name nè")
@@ -66,7 +74,7 @@ struct PostView: View {
                 Text("Nội dung bình luận")
                     .font(.system(size: 12))
                 Spacer()
-            }.padding()
+            }.padding(.leading)
             
             
             
@@ -75,6 +83,13 @@ struct PostView: View {
             
         }.sheet(isPresented: $isShowingBottom, content: {
             ShareView()
+                .presentationDetents([.height(500)])
+                .presentationDragIndicator(.visible)
+                .presentationCornerRadius(20)
+                
+        })
+        .sheet(isPresented: $isShowingBottomShare, content: {
+            ShareFriendView()
                 .presentationDetents([.height(500)])
                 .presentationDragIndicator(.visible)
                 .presentationCornerRadius(20)

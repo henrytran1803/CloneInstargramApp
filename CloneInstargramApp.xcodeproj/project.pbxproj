@@ -41,6 +41,9 @@
 		D2D76B0B2BA4461900C5255C /* SuperMiniCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B0A2BA4461900C5255C /* SuperMiniCircleImage.swift */; };
 		D2D76B0D2BA4467600C5255C /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B0C2BA4467600C5255C /* CommentView.swift */; };
 		D2D76B0F2BA4472700C5255C /* CommentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B0E2BA4472700C5255C /* CommentItem.swift */; };
+		D2D76B112BA4766200C5255C /* ShareFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B102BA4766200C5255C /* ShareFriendView.swift */; };
+		D2D76B132BA477B200C5255C /* UserShareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B122BA477B200C5255C /* UserShareModel.swift */; };
+		D2D76B152BA4792F00C5255C /* ButtonCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B142BA4792F00C5255C /* ButtonCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +99,9 @@
 		D2D76B0A2BA4461900C5255C /* SuperMiniCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMiniCircleImage.swift; sourceTree = "<group>"; };
 		D2D76B0C2BA4467600C5255C /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
 		D2D76B0E2BA4472700C5255C /* CommentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentItem.swift; sourceTree = "<group>"; };
+		D2D76B102BA4766200C5255C /* ShareFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareFriendView.swift; sourceTree = "<group>"; };
+		D2D76B122BA477B200C5255C /* UserShareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserShareModel.swift; sourceTree = "<group>"; };
+		D2D76B142BA4792F00C5255C /* ButtonCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +272,7 @@
 				D2D76AD52BA3E5D800C5255C /* UserData.swift */,
 				D2D76AFD2BA4344600C5255C /* StoryModel.swift */,
 				D2D76B012BA4390B00C5255C /* PostModel.swift */,
+				D2D76B122BA477B200C5255C /* UserShareModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -291,6 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				D2D76AE32BA3FB0D00C5255C /* ButtonCustom.swift */,
+				D2D76B142BA4792F00C5255C /* ButtonCircle.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -336,6 +344,7 @@
 				D2D76B062BA43B1700C5255C /* ShareView.swift */,
 				D2D76B0C2BA4467600C5255C /* CommentView.swift */,
 				D2D76B0E2BA4472700C5255C /* CommentItem.swift */,
+				D2D76B102BA4766200C5255C /* ShareFriendView.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -477,7 +486,9 @@
 				D2D76AEA2BA42CE400C5255C /* TabCustomView.swift in Sources */,
 				D2D76AF82BA431D000C5255C /* CircleImage.swift in Sources */,
 				D2D76AE12BA3F91900C5255C /* TextFieldCustom.swift in Sources */,
+				D2D76B152BA4792F00C5255C /* ButtonCircle.swift in Sources */,
 				D2D76B072BA43B1700C5255C /* ShareView.swift in Sources */,
+				D2D76B112BA4766200C5255C /* ShareFriendView.swift in Sources */,
 				D2D76AFA2BA4340C00C5255C /* StoryView.swift in Sources */,
 				D2D76AEE2BA4302600C5255C /* AddStoryView.swift in Sources */,
 				D2D76AD62BA3E5D800C5255C /* UserData.swift in Sources */,
@@ -486,6 +497,7 @@
 				D2D76AE82BA42C4800C5255C /* HomeView.swift in Sources */,
 				D2D76AE62BA411E000C5255C /* PasswordSignUpView.swift in Sources */,
 				D2D76A9E2BA3E41500C5255C /* ContentView.swift in Sources */,
+				D2D76B132BA477B200C5255C /* UserShareModel.swift in Sources */,
 				D2D76AFE2BA4344600C5255C /* StoryModel.swift in Sources */,
 				D2D76AE42BA3FB0D00C5255C /* ButtonCustom.swift in Sources */,
 				D2D76B0B2BA4461900C5255C /* SuperMiniCircleImage.swift in Sources */,
