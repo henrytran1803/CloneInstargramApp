@@ -25,6 +25,22 @@
 		D2D76AE12BA3F91900C5255C /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AE02BA3F91900C5255C /* TextFieldCustom.swift */; };
 		D2D76AE42BA3FB0D00C5255C /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AE32BA3FB0D00C5255C /* ButtonCustom.swift */; };
 		D2D76AE62BA411E000C5255C /* PasswordSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AE52BA411E000C5255C /* PasswordSignUpView.swift */; };
+		D2D76AE82BA42C4800C5255C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AE72BA42C4800C5255C /* HomeView.swift */; };
+		D2D76AEA2BA42CE400C5255C /* TabCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AE92BA42CE400C5255C /* TabCustomView.swift */; };
+		D2D76AEC2BA42D7E00C5255C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AEB2BA42D7D00C5255C /* SearchView.swift */; };
+		D2D76AEE2BA4302600C5255C /* AddStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AED2BA4302600C5255C /* AddStoryView.swift */; };
+		D2D76AF02BA4313100C5255C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AEF2BA4313100C5255C /* ProfileView.swift */; };
+		D2D76AF52BA4317A00C5255C /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AF42BA4317A00C5255C /* ReelView.swift */; };
+		D2D76AF82BA431D000C5255C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AF72BA431D000C5255C /* CircleImage.swift */; };
+		D2D76AFA2BA4340C00C5255C /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AF92BA4340C00C5255C /* StoryView.swift */; };
+		D2D76AFE2BA4344600C5255C /* StoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AFD2BA4344600C5255C /* StoryModel.swift */; };
+		D2D76B022BA4390B00C5255C /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B012BA4390B00C5255C /* PostModel.swift */; };
+		D2D76B052BA43A6D00C5255C /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B042BA43A6D00C5255C /* PostView.swift */; };
+		D2D76B072BA43B1700C5255C /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B062BA43B1700C5255C /* ShareView.swift */; };
+		D2D76B092BA4408900C5255C /* MiniCircleimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B082BA4408900C5255C /* MiniCircleimage.swift */; };
+		D2D76B0B2BA4461900C5255C /* SuperMiniCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B0A2BA4461900C5255C /* SuperMiniCircleImage.swift */; };
+		D2D76B0D2BA4467600C5255C /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B0C2BA4467600C5255C /* CommentView.swift */; };
+		D2D76B0F2BA4472700C5255C /* CommentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76B0E2BA4472700C5255C /* CommentItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +80,22 @@
 		D2D76AE02BA3F91900C5255C /* TextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
 		D2D76AE32BA3FB0D00C5255C /* ButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustom.swift; sourceTree = "<group>"; };
 		D2D76AE52BA411E000C5255C /* PasswordSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSignUpView.swift; sourceTree = "<group>"; };
+		D2D76AE72BA42C4800C5255C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D2D76AE92BA42CE400C5255C /* TabCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCustomView.swift; sourceTree = "<group>"; };
+		D2D76AEB2BA42D7D00C5255C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		D2D76AED2BA4302600C5255C /* AddStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStoryView.swift; sourceTree = "<group>"; };
+		D2D76AEF2BA4313100C5255C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D2D76AF42BA4317A00C5255C /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		D2D76AF72BA431D000C5255C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		D2D76AF92BA4340C00C5255C /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		D2D76AFD2BA4344600C5255C /* StoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModel.swift; sourceTree = "<group>"; };
+		D2D76B012BA4390B00C5255C /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		D2D76B042BA43A6D00C5255C /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		D2D76B062BA43B1700C5255C /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		D2D76B082BA4408900C5255C /* MiniCircleimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniCircleimage.swift; sourceTree = "<group>"; };
+		D2D76B0A2BA4461900C5255C /* SuperMiniCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMiniCircleImage.swift; sourceTree = "<group>"; };
+		D2D76B0C2BA4467600C5255C /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		D2D76B0E2BA4472700C5255C /* CommentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +187,10 @@
 		D2D76AC72BA3E43500C5255C /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D2D76B032BA43A5B00C5255C /* Post */,
+				D2D76AF32BA4316700C5255C /* Reel */,
+				D2D76AF22BA4314900C5255C /* Search */,
+				D2D76AF12BA4313E00C5255C /* Profile */,
 				D2D76ACF2BA3E4CB00C5255C /* Home */,
 				D2D76ACD2BA3E47300C5255C /* SignIn */,
 				D2D76ACC2BA3E46800C5255C /* SingUp */,
@@ -182,6 +218,7 @@
 		D2D76ACB2BA3E46100C5255C /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D2D76AF62BA431BD00C5255C /* Image */,
 				D2D76AE22BA3FB0100C5255C /* Button */,
 				D2D76ADE2BA3F8F700C5255C /* TextField */,
 			);
@@ -215,6 +252,10 @@
 		D2D76ACF2BA3E4CB00C5255C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D2D76AE72BA42C4800C5255C /* HomeView.swift */,
+				D2D76AE92BA42CE400C5255C /* TabCustomView.swift */,
+				D2D76AED2BA4302600C5255C /* AddStoryView.swift */,
+				D2D76AF92BA4340C00C5255C /* StoryView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -223,6 +264,8 @@
 			isa = PBXGroup;
 			children = (
 				D2D76AD52BA3E5D800C5255C /* UserData.swift */,
+				D2D76AFD2BA4344600C5255C /* StoryModel.swift */,
+				D2D76B012BA4390B00C5255C /* PostModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,6 +293,51 @@
 				D2D76AE32BA3FB0D00C5255C /* ButtonCustom.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		D2D76AF12BA4313E00C5255C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AEF2BA4313100C5255C /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D2D76AF22BA4314900C5255C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AEB2BA42D7D00C5255C /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D2D76AF32BA4316700C5255C /* Reel */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AF42BA4317A00C5255C /* ReelView.swift */,
+			);
+			path = Reel;
+			sourceTree = "<group>";
+		};
+		D2D76AF62BA431BD00C5255C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AF72BA431D000C5255C /* CircleImage.swift */,
+				D2D76B082BA4408900C5255C /* MiniCircleimage.swift */,
+				D2D76B0A2BA4461900C5255C /* SuperMiniCircleImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		D2D76B032BA43A5B00C5255C /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76B042BA43A6D00C5255C /* PostView.swift */,
+				D2D76B062BA43B1700C5255C /* ShareView.swift */,
+				D2D76B0C2BA4467600C5255C /* CommentView.swift */,
+				D2D76B0E2BA4472700C5255C /* CommentItem.swift */,
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,14 +474,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D76AEA2BA42CE400C5255C /* TabCustomView.swift in Sources */,
+				D2D76AF82BA431D000C5255C /* CircleImage.swift in Sources */,
 				D2D76AE12BA3F91900C5255C /* TextFieldCustom.swift in Sources */,
+				D2D76B072BA43B1700C5255C /* ShareView.swift in Sources */,
+				D2D76AFA2BA4340C00C5255C /* StoryView.swift in Sources */,
+				D2D76AEE2BA4302600C5255C /* AddStoryView.swift in Sources */,
 				D2D76AD62BA3E5D800C5255C /* UserData.swift in Sources */,
 				D2D76AD12BA3E5A500C5255C /* SignupView.swift in Sources */,
+				D2D76AEC2BA42D7E00C5255C /* SearchView.swift in Sources */,
+				D2D76AE82BA42C4800C5255C /* HomeView.swift in Sources */,
 				D2D76AE62BA411E000C5255C /* PasswordSignUpView.swift in Sources */,
 				D2D76A9E2BA3E41500C5255C /* ContentView.swift in Sources */,
+				D2D76AFE2BA4344600C5255C /* StoryModel.swift in Sources */,
 				D2D76AE42BA3FB0D00C5255C /* ButtonCustom.swift in Sources */,
+				D2D76B0B2BA4461900C5255C /* SuperMiniCircleImage.swift in Sources */,
+				D2D76B092BA4408900C5255C /* MiniCircleimage.swift in Sources */,
 				D2D76AA02BA3E41500C5255C /* Item.swift in Sources */,
+				D2D76B022BA4390B00C5255C /* PostModel.swift in Sources */,
+				D2D76B0D2BA4467600C5255C /* CommentView.swift in Sources */,
 				D2D76A9C2BA3E41500C5255C /* CloneInstargramAppApp.swift in Sources */,
+				D2D76B0F2BA4472700C5255C /* CommentItem.swift in Sources */,
+				D2D76AF52BA4317A00C5255C /* ReelView.swift in Sources */,
+				D2D76AF02BA4313100C5255C /* ProfileView.swift in Sources */,
+				D2D76B052BA43A6D00C5255C /* PostView.swift in Sources */,
 				D2D76AD32BA3E5B100C5255C /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
