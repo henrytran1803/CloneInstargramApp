@@ -12,9 +12,14 @@ struct SignInView: View {
     @State private var userName = ""
     @State  private var passWord = ""
     @State private var isSignIn = false
+    @State private var isLoginFB = false
+    @State private var isShowingSignup = false
     var body: some View {
         VStack{
+            Spacer()
             Image("TextLogoIG")
+                .resizable()
+                .frame(width: 200, height: 60)
             Spacer()
             VStack{
                 TextField("Số điện thoại, tên người dùng hoặc email", text: $userName)
@@ -24,7 +29,7 @@ struct SignInView: View {
                     .textFieldStyle(OvalTextFieldStyle())
                     .padding([.leading,.trailing])
             }
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Button(action: {isSignIn = true}, label: {
                 Text("Đăng nhập")
                     .bold()
                     .font(.system(size: 13))
@@ -45,22 +50,26 @@ struct SignInView: View {
             }
             HStack{
                 Image("Logofb")
-                Text("Đăng nhập bằng face book")
-                    .foregroundColor(.blue)
-                    .font(.system(size: 13))
-                    .bold()
+                
+                Button(action: {isLoginFB = true}, label: {
+                    Text("Đăng nhập bằng face book")
+                        .foregroundColor(.blue)
+                        .font(.system(size: 13))
+                        .bold()
+                })
+                
             }
             Spacer()
             Divider()
             HStack{
                 Text("Bạn chưa có tài khoản ư?")
                     .foregroundColor(.secondary)
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Button(action: {isShowingSignup = true}, label: {
                     Text("Đăng ký.")
                         .bold()
                     
                 })
-            }
+            }.font(.system(size: 15))
             
             
         }

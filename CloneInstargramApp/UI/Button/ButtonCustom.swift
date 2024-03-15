@@ -14,9 +14,10 @@ struct ButtonLogin: ButtonStyle{
         configuration.label
             .padding()
             .frame(maxWidth: .infinity)
-            .background(Color("button"))
+            .background(configuration.isPressed ? Color("buttonclick") : Color("button"))
             .foregroundStyle(.white)
             .cornerRadius(10)
+        
     }
 
 }

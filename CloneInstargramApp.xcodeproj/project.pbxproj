@@ -24,6 +24,7 @@
 		D2D76ADD2BA3F72000C5255C /* fontig.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2D76AD82BA3F31A00C5255C /* fontig.otf */; };
 		D2D76AE12BA3F91900C5255C /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AE02BA3F91900C5255C /* TextFieldCustom.swift */; };
 		D2D76AE42BA3FB0D00C5255C /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AE32BA3FB0D00C5255C /* ButtonCustom.swift */; };
+		D2D76AE62BA411E000C5255C /* PasswordSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AE52BA411E000C5255C /* PasswordSignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		D2D76AD92BA3F31B00C5255C /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf"; sourceTree = "<group>"; };
 		D2D76AE02BA3F91900C5255C /* TextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
 		D2D76AE32BA3FB0D00C5255C /* ButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustom.swift; sourceTree = "<group>"; };
+		D2D76AE52BA411E000C5255C /* PasswordSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				D2D76AD02BA3E5A500C5255C /* SignupView.swift */,
+				D2D76AE52BA411E000C5255C /* PasswordSignUpView.swift */,
 			);
 			path = SingUp;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				D2D76AE12BA3F91900C5255C /* TextFieldCustom.swift in Sources */,
 				D2D76AD62BA3E5D800C5255C /* UserData.swift in Sources */,
 				D2D76AD12BA3E5A500C5255C /* SignupView.swift in Sources */,
+				D2D76AE62BA411E000C5255C /* PasswordSignUpView.swift in Sources */,
 				D2D76A9E2BA3E41500C5255C /* ContentView.swift in Sources */,
 				D2D76AE42BA3FB0D00C5255C /* ButtonCustom.swift in Sources */,
 				D2D76AA02BA3E41500C5255C /* Item.swift in Sources */,
