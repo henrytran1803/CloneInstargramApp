@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,15 @@
 		D2D76AAF2BA3E41800C5255C /* CloneInstargramAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AAE2BA3E41800C5255C /* CloneInstargramAppTests.swift */; };
 		D2D76AB92BA3E41800C5255C /* CloneInstargramAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AB82BA3E41800C5255C /* CloneInstargramAppUITests.swift */; };
 		D2D76ABB2BA3E41800C5255C /* CloneInstargramAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76ABA2BA3E41800C5255C /* CloneInstargramAppUITestsLaunchTests.swift */; };
+		D2D76AD12BA3E5A500C5255C /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AD02BA3E5A500C5255C /* SignupView.swift */; };
+		D2D76AD32BA3E5B100C5255C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AD22BA3E5B100C5255C /* SignInView.swift */; };
+		D2D76AD62BA3E5D800C5255C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AD52BA3E5D800C5255C /* UserData.swift */; };
+		D2D76ADA2BA3F31B00C5255C /* fontig.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2D76AD82BA3F31A00C5255C /* fontig.otf */; };
+		D2D76ADB2BA3F31B00C5255C /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2D76AD92BA3F31B00C5255C /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf */; };
+		D2D76ADC2BA3F72000C5255C /* fontig.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2D76AD82BA3F31A00C5255C /* fontig.otf */; };
+		D2D76ADD2BA3F72000C5255C /* fontig.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2D76AD82BA3F31A00C5255C /* fontig.otf */; };
+		D2D76AE12BA3F91900C5255C /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AE02BA3F91900C5255C /* TextFieldCustom.swift */; };
+		D2D76AE42BA3FB0D00C5255C /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AE32BA3FB0D00C5255C /* ButtonCustom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +55,13 @@
 		D2D76AB42BA3E41800C5255C /* CloneInstargramAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloneInstargramAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D76AB82BA3E41800C5255C /* CloneInstargramAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneInstargramAppUITests.swift; sourceTree = "<group>"; };
 		D2D76ABA2BA3E41800C5255C /* CloneInstargramAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneInstargramAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2D76AD02BA3E5A500C5255C /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		D2D76AD22BA3E5B100C5255C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D2D76AD52BA3E5D800C5255C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		D2D76AD82BA3F31A00C5255C /* fontig.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontig.otf; sourceTree = "<group>"; };
+		D2D76AD92BA3F31B00C5255C /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf"; sourceTree = "<group>"; };
+		D2D76AE02BA3F91900C5255C /* TextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
+		D2D76AE32BA3FB0D00C5255C /* ButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +112,14 @@
 		D2D76A9A2BA3E41500C5255C /* CloneInstargramApp */ = {
 			isa = PBXGroup;
 			children = (
+				D2D76AD42BA3E5B800C5255C /* Model */,
+				D2D76ACE2BA3E4BD00C5255C /* Services */,
+				D2D76ACB2BA3E46100C5255C /* UI */,
+				D2D76AC92BA3E44700C5255C /* Common */,
+				D2D76AC72BA3E43500C5255C /* Components */,
 				D2D76A9B2BA3E41500C5255C /* CloneInstargramAppApp.swift */,
 				D2D76A9D2BA3E41500C5255C /* ContentView.swift */,
 				D2D76A9F2BA3E41500C5255C /* Item.swift */,
-				D2D76AA12BA3E41800C5255C /* Assets.xcassets */,
 				D2D76AA32BA3E41800C5255C /* Preview Content */,
 			);
 			path = CloneInstargramApp;
@@ -128,6 +148,105 @@
 				D2D76ABA2BA3E41800C5255C /* CloneInstargramAppUITestsLaunchTests.swift */,
 			);
 			path = CloneInstargramAppUITests;
+			sourceTree = "<group>";
+		};
+		D2D76AC72BA3E43500C5255C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76ACF2BA3E4CB00C5255C /* Home */,
+				D2D76ACD2BA3E47300C5255C /* SignIn */,
+				D2D76ACC2BA3E46800C5255C /* SingUp */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D2D76AC92BA3E44700C5255C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AD72BA3F30B00C5255C /* Fonts */,
+				D2D76ACA2BA3E45000C5255C /* Resources */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D2D76ACA2BA3E45000C5255C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AA12BA3E41800C5255C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D2D76ACB2BA3E46100C5255C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AE22BA3FB0100C5255C /* Button */,
+				D2D76ADE2BA3F8F700C5255C /* TextField */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D2D76ACC2BA3E46800C5255C /* SingUp */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AD02BA3E5A500C5255C /* SignupView.swift */,
+			);
+			path = SingUp;
+			sourceTree = "<group>";
+		};
+		D2D76ACD2BA3E47300C5255C /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AD22BA3E5B100C5255C /* SignInView.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		D2D76ACE2BA3E4BD00C5255C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D2D76ACF2BA3E4CB00C5255C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D2D76AD42BA3E5B800C5255C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AD52BA3E5D800C5255C /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2D76AD72BA3F30B00C5255C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AD82BA3F31A00C5255C /* fontig.otf */,
+				D2D76AD92BA3F31B00C5255C /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D2D76ADE2BA3F8F700C5255C /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AE02BA3F91900C5255C /* TextFieldCustom.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		D2D76AE22BA3FB0100C5255C /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				D2D76AE32BA3FB0D00C5255C /* ButtonCustom.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +329,7 @@
 				};
 			};
 			buildConfigurationList = D2D76A932BA3E41400C5255C /* Build configuration list for PBXProject "CloneInstargramApp" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -235,6 +354,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D76AA52BA3E41800C5255C /* Preview Assets.xcassets in Resources */,
+				D2D76ADA2BA3F31B00C5255C /* fontig.otf in Resources */,
+				D2D76ADB2BA3F31B00C5255C /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf in Resources */,
 				D2D76AA22BA3E41800C5255C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D76ADC2BA3F72000C5255C /* fontig.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D76ADD2BA3F72000C5255C /* fontig.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +383,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D76AE12BA3F91900C5255C /* TextFieldCustom.swift in Sources */,
+				D2D76AD62BA3E5D800C5255C /* UserData.swift in Sources */,
+				D2D76AD12BA3E5A500C5255C /* SignupView.swift in Sources */,
 				D2D76A9E2BA3E41500C5255C /* ContentView.swift in Sources */,
+				D2D76AE42BA3FB0D00C5255C /* ButtonCustom.swift in Sources */,
 				D2D76AA02BA3E41500C5255C /* Item.swift in Sources */,
 				D2D76A9C2BA3E41500C5255C /* CloneInstargramAppApp.swift in Sources */,
+				D2D76AD32BA3E5B100C5255C /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
