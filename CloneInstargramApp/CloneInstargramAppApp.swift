@@ -7,12 +7,14 @@
 
 import SwiftUI
 import SwiftData
+var isLoggedInKey = false
 
 @main
 struct CloneInstargramAppApp: App {
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            User.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +27,11 @@ struct CloneInstargramAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isLoggedInKey {
+                TabCustomView()
+            } else {
+                SignInView()
+            }
         }
         .modelContainer(sharedModelContainer)
     }

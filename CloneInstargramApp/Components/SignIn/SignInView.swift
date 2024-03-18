@@ -6,9 +6,12 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct SignInView: View {
-    
+    @Environment (\.modelContext) var modelContext
+    @Query private var users: [User]
+    @State private var isShowAlert = false
     @State private var userName = ""
     @State  private var passWord = ""
     @State private var isSignIn = false
@@ -25,11 +28,11 @@ struct SignInView: View {
                 TextField("Số điện thoại, tên người dùng hoặc email", text: $userName)
                     .textFieldStyle(OvalTextFieldStyle())
                     .padding([.leading,.trailing])
-                TextField("Mật khẩu", text: $passWord)
+                SecureField("Mật khẩu", text: $passWord)
                     .textFieldStyle(OvalTextFieldStyle())
                     .padding([.leading,.trailing])
             }
-            Button(action: {isSignIn = true}, label: {
+            Button(action: {checkUser()}, label: {
                 Text("Đăng nhập")
                     .bold()
                     .font(.system(size: 13))
@@ -72,8 +75,27 @@ struct SignInView: View {
             }.font(.system(size: 15))
             
             
+        }.fullScreenCover(isPresented: $isShowingSignup){
+            SignupView()
+        }
+        .fullScreenCover(isPresented: $isSignIn){
+            TabCustomView()
+        }
+        .alert(isPresented: $isShowAlert){
+            Alert(title: Text("Error"),message: Text("Sai tên đăng nhập mật khẩu"))
         }
             
+    }
+    func checkUser(){
+        let isUserExists = users.contains { existingUser in
+            existingUser.username == userName && existingUser.password == passWord
+        }
+        if isUserExists {
+            isShowAlert = true
+        } else {
+            isSignIn = true
+            isLoggedInKey = true
+        }
     }
 }
 

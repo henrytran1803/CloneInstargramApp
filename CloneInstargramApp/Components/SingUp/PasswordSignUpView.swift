@@ -6,9 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
+
 
 struct PasswordSignUpView: View {
-    @State private var username = ""
+    
+    @Environment (\.modelContext) var modelContext
+    
+    @State var username:String
+    
+    @State private var password = ""
     @State private var isNext = false
     @State private var isSavePass = false
     var body: some View {
@@ -21,7 +28,7 @@ struct PasswordSignUpView: View {
                 .foregroundColor(.secondary)
                 .multilineTextAlignment(.center)
                 .padding([.leading, .bottom, .trailing])
-            TextField("Mật khẩu", text: $username)
+            SecureField("Mật khẩu", text: $password)
                 .textFieldStyle(OvalTextFieldStyle())
                 .padding([.leading,.trailing])
             HStack{
@@ -31,17 +38,24 @@ struct PasswordSignUpView: View {
                 Text("Lưu mật khẩu")
                 Spacer()
             }.padding(.leading)
-            Button(action: {isNext = true}, label: {
+            Button(action: {saveUser()}, label: {
                 Text("Tiếp")
                     .bold()
                     .font(.system(size: 13))
             }).buttonStyle(ButtonLogin())
                 .padding(.horizontal)
             Spacer()
+        }.fullScreenCover(isPresented: $isNext){
+            SignInView()
         }
+    }
+    func saveUser(){
+        let newUser = User(username: username, password: password)
+        modelContext.insert(newUser)
+        isNext = true
     }
 }
 
 #Preview {
-    PasswordSignUpView()
+    PasswordSignUpView(username: "anh")
 }

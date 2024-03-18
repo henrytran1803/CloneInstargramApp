@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2BA8E962BA7E3A60016434D /* IsLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BA8E952BA7E3A60016434D /* IsLoginModel.swift */; };
 		D2D76A9C2BA3E41500C5255C /* CloneInstargramAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76A9B2BA3E41500C5255C /* CloneInstargramAppApp.swift */; };
-		D2D76A9E2BA3E41500C5255C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76A9D2BA3E41500C5255C /* ContentView.swift */; };
-		D2D76AA02BA3E41500C5255C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76A9F2BA3E41500C5255C /* Item.swift */; };
 		D2D76AA22BA3E41800C5255C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D76AA12BA3E41800C5255C /* Assets.xcassets */; };
 		D2D76AA52BA3E41800C5255C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D76AA42BA3E41800C5255C /* Preview Assets.xcassets */; };
 		D2D76AAF2BA3E41800C5255C /* CloneInstargramAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76AAE2BA3E41800C5255C /* CloneInstargramAppTests.swift */; };
@@ -64,10 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2BA8E952BA7E3A60016434D /* IsLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsLoginModel.swift; sourceTree = "<group>"; };
 		D2D76A982BA3E41500C5255C /* CloneInstargramApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloneInstargramApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D76A9B2BA3E41500C5255C /* CloneInstargramAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneInstargramAppApp.swift; sourceTree = "<group>"; };
-		D2D76A9D2BA3E41500C5255C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D2D76A9F2BA3E41500C5255C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		D2D76AA12BA3E41800C5255C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2D76AA42BA3E41800C5255C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2D76AAA2BA3E41800C5255C /* CloneInstargramAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloneInstargramAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,8 +156,6 @@
 				D2D76AC92BA3E44700C5255C /* Common */,
 				D2D76AC72BA3E43500C5255C /* Components */,
 				D2D76A9B2BA3E41500C5255C /* CloneInstargramAppApp.swift */,
-				D2D76A9D2BA3E41500C5255C /* ContentView.swift */,
-				D2D76A9F2BA3E41500C5255C /* Item.swift */,
 				D2D76AA32BA3E41800C5255C /* Preview Content */,
 			);
 			path = CloneInstargramApp;
@@ -273,6 +269,7 @@
 				D2D76AFD2BA4344600C5255C /* StoryModel.swift */,
 				D2D76B012BA4390B00C5255C /* PostModel.swift */,
 				D2D76B122BA477B200C5255C /* UserShareModel.swift */,
+				D2BA8E952BA7E3A60016434D /* IsLoginModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -484,6 +481,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D76AEA2BA42CE400C5255C /* TabCustomView.swift in Sources */,
+				D2BA8E962BA7E3A60016434D /* IsLoginModel.swift in Sources */,
 				D2D76AF82BA431D000C5255C /* CircleImage.swift in Sources */,
 				D2D76AE12BA3F91900C5255C /* TextFieldCustom.swift in Sources */,
 				D2D76B152BA4792F00C5255C /* ButtonCircle.swift in Sources */,
@@ -496,13 +494,11 @@
 				D2D76AEC2BA42D7E00C5255C /* SearchView.swift in Sources */,
 				D2D76AE82BA42C4800C5255C /* HomeView.swift in Sources */,
 				D2D76AE62BA411E000C5255C /* PasswordSignUpView.swift in Sources */,
-				D2D76A9E2BA3E41500C5255C /* ContentView.swift in Sources */,
 				D2D76B132BA477B200C5255C /* UserShareModel.swift in Sources */,
 				D2D76AFE2BA4344600C5255C /* StoryModel.swift in Sources */,
 				D2D76AE42BA3FB0D00C5255C /* ButtonCustom.swift in Sources */,
 				D2D76B0B2BA4461900C5255C /* SuperMiniCircleImage.swift in Sources */,
 				D2D76B092BA4408900C5255C /* MiniCircleimage.swift in Sources */,
-				D2D76AA02BA3E41500C5255C /* Item.swift in Sources */,
 				D2D76B022BA4390B00C5255C /* PostModel.swift in Sources */,
 				D2D76B0D2BA4467600C5255C /* CommentView.swift in Sources */,
 				D2D76A9C2BA3E41500C5255C /* CloneInstargramAppApp.swift in Sources */,

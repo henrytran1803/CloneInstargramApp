@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @State private var isLogout = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Button(action: {isLogout = true
+            isLoggedInKey = false
+            }, label: {
+                Text("Đăng xuất")
+                
+            })
+            
+        }.fullScreenCover(isPresented: $isLogout){
+            SignInView()
+        }
     }
 }
 

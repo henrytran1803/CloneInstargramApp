@@ -16,7 +16,7 @@ class User {
     var dateofbirth: Date
     var name: String
     var password: String
-    init(id: UUID = UUID(), username: String, dateofbirth: Date = .now, name: String = "", password: String) {
+    init(id: UUID = UUID(), username: String, dateofbirth: Date = .now, name: String = "", password: String = "") {
         self.id = id
         self.username = username
         self.dateofbirth = dateofbirth
