@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2AD1B5E2BA97D8A000A23DF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AD1B5D2BA97D8A000A23DF /* Launch Screen.storyboard */; };
 		D2BA8E962BA7E3A60016434D /* IsLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BA8E952BA7E3A60016434D /* IsLoginModel.swift */; };
 		D2D76A9C2BA3E41500C5255C /* CloneInstargramAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D76A9B2BA3E41500C5255C /* CloneInstargramAppApp.swift */; };
 		D2D76AA22BA3E41800C5255C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D76AA12BA3E41800C5255C /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2AD1B5D2BA97D8A000A23DF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D2BA8E952BA7E3A60016434D /* IsLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsLoginModel.swift; sourceTree = "<group>"; };
 		D2D76A982BA3E41500C5255C /* CloneInstargramApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloneInstargramApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D76A9B2BA3E41500C5255C /* CloneInstargramAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneInstargramAppApp.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 		D2D76ACA2BA3E45000C5255C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D2AD1B5D2BA97D8A000A23DF /* Launch Screen.storyboard */,
 				D2D76AA12BA3E41800C5255C /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -453,6 +456,7 @@
 				D2D76AA52BA3E41800C5255C /* Preview Assets.xcassets in Resources */,
 				D2D76ADA2BA3F31B00C5255C /* fontig.otf in Resources */,
 				D2D76ADB2BA3F31B00C5255C /* Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf in Resources */,
+				D2AD1B5E2BA97D8A000A23DF /* Launch Screen.storyboard in Resources */,
 				D2D76AA22BA3E41800C5255C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -667,6 +671,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CloneInstargramApp/Preview Content\"";
@@ -676,6 +681,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -696,6 +702,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CloneInstargramApp/Preview Content\"";
@@ -705,6 +712,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

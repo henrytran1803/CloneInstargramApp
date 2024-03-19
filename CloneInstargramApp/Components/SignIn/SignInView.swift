@@ -55,7 +55,7 @@ struct SignInView: View {
                 Image("Logofb")
                 
                 Button(action: {isLoginFB = true}, label: {
-                    Text("Đăng nhập bằng face book")
+                    Text("Đăng nhập bằng facebook")
                         .foregroundColor(.blue)
                         .font(.system(size: 13))
                         .bold()
@@ -88,13 +88,14 @@ struct SignInView: View {
     }
     func checkUser(){
         let isUserExists = users.contains { existingUser in
-            existingUser.username == userName && existingUser.password == passWord
+            existingUser.username.elementsEqual(userName)  && existingUser.password.elementsEqual(passWord)
         }
         if isUserExists {
-            isShowAlert = true
-        } else {
             isSignIn = true
             isLoggedInKey = true
+        } else {
+            isShowAlert = true
+
         }
     }
 }
